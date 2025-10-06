@@ -1,0 +1,47 @@
+.our-firm {
+    margin: 80px 180px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.our-firm h2 {
+    font-size: 32px;
+    line-height: 38px;
+    color: #403E3B;
+    margin: 20px;
+}
+
+.our-firm .text-with-image-container p {
+    color: #403E3B;
+    margin: 20px 0;
+}
+
+.our-firm .about-employeer-text-with-image {
+    display: flex;
+    align-items: center;
+}
+
+.our-firm .about-employeer-text-with-image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #CEC4BC;
+}
+
+.our-firm .about-employeer-text {
+    margin-left: 30px;
+}
+
+.our-firm .about-employeer-text p {
+    margin: 0;
+    font-size: 18px;
+    color: #1B1A1A;
+    line-height: 26px;
+}
+
+.our-firm .about-employeer-text span {
+    color: #645C55;
+    font-size: 14px;
+    line-height: 14px;
+}

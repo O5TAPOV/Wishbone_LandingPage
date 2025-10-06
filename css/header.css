@@ -1,0 +1,59 @@
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    background-color: #ECE7E4;
+    width: 100vw;
+    overflow-x: hidden;
+    transition: all 0.2s linear;
+}
+
+header img {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.about-us-container {
+    margin: 20% 40px;
+}
+
+.about-us-container span {
+    margin: 40px 0;
+}
+
+.about-us-container h1 {
+    font-size: 64px;
+    line-height: 70px;
+    color: #1B1A1A;
+    margin: 40px 0;
+}
+
+.about-us-container p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #403E3B;
+    margin: 40px 0;
+}
+
+.about-us-container a {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #1B1A1A;
+    transition: all 0.2s linear;
+}
+
+.about-us-container a:hover {
+    color: #ECE7E4;
+    background-color: #1B1A1A;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.478);
+}
+
+header:has(.about-us-container a:hover) {
+    background-color: #7a7470;
+}
+
+.about-us-container:has(a:hover) h1 {
+    color: #ECE7E4;
+    transform: scale(105%);
+}

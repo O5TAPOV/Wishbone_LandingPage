@@ -1,0 +1,35 @@
+.image-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.image-section .text {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: flex-end;
+    padding: 238px 0;
+    padding-right: 80px;
+}
+
+.image-section p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #645C55;
+    width: 300px;
+}
+
+.image-section:last-child .text {
+    align-content: flex-start;
+    padding-left: 80px;
+    padding-right: 0;
+}
+
+.image-section .overtitle {
+    color: #403E3B;
+}

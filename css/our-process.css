@@ -1,0 +1,39 @@
+.our-process {
+    text-align: center;
+    margin: 80px 180px;
+}
+
+.our-process h2 {
+    margin: 5px 0;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 20px;
+}
+
+.card {
+    margin: 0 24px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.card-title {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.card-text {
+    margin: 10px 0;
+    color: #645C55;
+}
+
+.card:hover {
+    transform: scale(110%);
+    background-color: #dcdcdc;
+}
+
+.card:hover .card-icon {
+    filter: invert(36%) sepia(88%) saturate(726%) hue-rotate(120deg);
+}
